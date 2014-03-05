@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+    <LinearLayout 
+        android:id="@+id/translate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <EditText
+	        android:id="@+id/et_translate"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="19dp"
+	        android:ems="10" >
+	        <requestFocus />
+	    </EditText>
+	    <Button
+	        android:id="@+id/btn_translate"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/translate" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/translate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/translate_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/text_size_17"
+	        android:background="#E0E0E0"
+	        android:text="@string/translate_title" />
+	
+	    <TextView
+	        android:id="@+id/translate_content"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	         />
+	</LinearLayout>
+    <LinearLayout 
+        android:id="@+id/basic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/basic_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_17"
+        android:background="#E0E0E0"
+        android:text="@string/basic_title" />
+
+    <TextView
+        android:id="@+id/basic_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/web_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+    <TextView
+        android:id="@+id/web_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_17"
+        android:background="#E0E0E0"
+        android:text="@string/web_title" />
+
+    <TextView
+        android:id="@+id/web_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+	</LinearLayout>
+</LinearLayout>

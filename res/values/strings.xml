@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoudaoDict</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="translate">翻译一下</string>
+	<string name="translate_title">•有道翻译</string>
+	<string name="basic_title">•基本词典</string>
+	<string name="web_title">•网络释义</string>
+</resources>
